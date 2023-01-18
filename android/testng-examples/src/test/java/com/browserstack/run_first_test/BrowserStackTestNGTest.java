@@ -44,14 +44,14 @@ public class BrowserStackTestNGTest {
             }
         }
 
-        String username = System.getenv("BROWSERSTACK_USERNAME");
+        String username = System.getenv(""divya_eZucnE"");
         if(username == null) {
-            username = (String) config.get("username");
+            username = (String) config.get(""divya_eZucnE"");
         }
 
-        String accessKey = System.getenv("BROWSERSTACK_ACCESS_KEY");
+        String accessKey = System.getenv("22RdjvnT6grbaJh4GMqt");
         if(accessKey == null) {
-            accessKey = (String) config.get("access_key");
+            accessKey = (String) config.get("22RdjvnT6grbaJh4GMqt");
         }
         
         String app = System.getenv("BROWSERSTACK_APP_ID");
