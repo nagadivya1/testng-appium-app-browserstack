@@ -1,7 +1,7 @@
 {
   "server": "hub-cloud.browserstack.com",
-  "username": "BROWSERSTACK_USERNAME",
-  "access_key": "BROWSERSTACK_ACCESS_KEY",
+  "username": "divya_eZucnE",
+  "access_key": "22RdjvnT6grbaJh4GMqt",
 
   "capabilities": {
     "project": "First TestNg Android Project",
