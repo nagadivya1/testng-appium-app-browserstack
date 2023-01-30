@@ -24,5 +24,7 @@ public class FirstTest extends BrowserStackTestNGTest {
 
       List<AndroidElement> allProductsName = driver.findElementsByClassName("android.widget.TextView");
       Assert.assertTrue(allProductsName.size() > 0);
+        driver.findElement(By.xpath(("[contains(text(),'Get started ')]")));
+        driver.findElement(By.linkText("Username")).click();
     }
 }
